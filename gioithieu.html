@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:fragment="dynamic(main)">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/54f0cb7e4a.js" crossorigin="anonymous"></script>
+	<link rel="shortcut icon" type="image/png" href="/img/iconbong.png">
+    <link href="/css/style.css" rel="stylesheet"/> 
+	<link href="/css/gioithieu.css" rel="stylesheet"/> 
+	<script src="js/data.js"></script>
+    <title>Shop thời trang</title>
+</head>
+<body>
+<header>
+    <div class="logo">
+        <img src="/img/profile.png">
+    </div>
+    <div class="menu">
+        <li><a href="/index.html">Sản Phẩm</a>
+        	<ul class="sub-menu">
+				<li><a href="">Nam</a><li>
+				<li><a href="">Nữ</a><li>
+        		<li><a href="">Hàng mới về</a><li>
+        		<li><a href="">Áo</a>
+        			<ul>
+        				<li><a href="">Áo sơ mi</a></li>
+        				<li><a href="">Áo Thun</a></li>
+        				<li><a href="">Áo Vest</a></li>
+        				<li><a href="">Áo Len</a></li>
+        				<li><a href="">Áo Khoác</a></li>
+        			</ul>
+        		<li>
+        		<li><a href="">Quần</a>
+        			<ul>
+        				<li><a href="">Quần jean</a></li>
+        				<li><a href="">Quần lửng</a></li>
+        				<li><a href="">Quần dài</a></li>
+        			</ul>
+        		<li>
+        	</ul>
+        </li>
+        <li><a href="/index.html">Trẻ Em</a>
+        <ul class="sub-menu">
+        		<li><a href="">Hàng mới về</a><li>
+        		<li><a href="">Collection</a><li>
+        		<li><a href="">Áo</a>
+        			<ul>
+        				<li><a href="">Áo sơ mi</a></li>
+        				<li><a href="">Áo Thun</a></li>
+        				<li><a href="">Áo Vest</a></li>
+        				<li><a href="">Áo Len</a></li>
+        				<li><a href="">Áo Khoác</a></li>
+        			</ul>
+        		<li>
+        		<li><a href="">Quần</a>
+        			<ul>
+        				<li><a href="">Quần jean</a></li>
+        				<li><a href="">Quần lửng</a></li>
+        				<li><a href="">Quần dài</a></li>
+        			</ul>
+        		<li>
+        	</ul>
+        </li>
+        <li><a href="/gioithieu.html">Giới Thiệu</a>
+        </li>
+        <li><a href="/index.html">Sale</a>
+       	</li>
+		   <li><a href="/lienhe.html">Liên Hệ</a>
+        </li>
+        <li><a href="/index.html">Khẩu Trang</a></li>
+    </div>
+    <div class="others">
+        <li><input placeholder="Tìm Kiếm" type="text"><i class="fas fa-search"></i></li>
+        <div class="menu">
+        <li><a href="dangnhap.html" >Đăng nhập</a>
+       	</li>
+		   <li><a href="dangky.html">Đăng ký</a>
+       	</li>
+		   <li>
+			<span id="count_cart"	></span>   
+			<a href="/giohang.html"><i class="fa fa-shopping-cart" ></i></a>
+       	</li>
+       	</div>
+    </div>
+</header>
+<!-- <section id="Slider">
+<div class="aspect-ratio-169">
+	<img src="/img/1.jpg">
+	<img src="/img/2.jpg">
+	<img src="/img/3.jpg">
+</div>
+<div class="dot-container">
+	<div class="dot active"></div>
+	<div class="dot"></div>
+	<div class="dot"></div>
+</div>
+</section>  -->
+<br/><br/><br/><br/><br/><br/>
+
+
+<div class="panel-body">
+	<div class="nghia-cart row">
+	<div class="gthieu">
+	  <e><li>Chào mừng bạn đến với SHOP THỜI TRANG LUCKY MAN</li></e>
+	  
+		  <li>-Thời trang LUCKY MAN cung cấp cho bạn các sản phẩm về thời
+			  trang – làm đẹp với giá thành luôn ở mức cạnh tranh nhất và chất
+			  lượng là Thương hiệu. Các sản phẩm mà chúng tôi cung cấp bao gồm :</li>
+		  <li>+Thời trang nữ : Áo quần – Giày dép – Ba lô, túi xách – Phụ
+			  kiện</li>
+		  <li>+Thời trang nam : Áo quần – Giày dép – Phụ kiện</li>
+
+		  <li>1/ Tiêu chí hoạt động :</li>
+		  <li>Đem đến cho khách hàng những sản phẩm về thời trang – làm
+			  đẹp mới nhất, hợp xu hướng với chất lượng tốt nhất và giá thành cạnh
+			  tranh nhất.
+		  <li>2/ Thái độ phục vụ :</li>
+		  <li>Thời trang LUCKY MAN luôn đề cao thái độ phục vụ quý khách
+			  hàng lên hàng đầu, vì thế mà các nhân viên của chúng tôi luôn được
+			  đào tạo các kỹ năng bán hàng chuyên nghiệp, với mong muốn sẽ đem đến
+			  cho khách hàng một trải nghiệm mua sắm tốt nhất.</li>
+		  <li>3/ Chất lượng sản phẩm :</li>
+		  <li>LUCKY luôn cam kết 100% các sản phẩm tại SHOP là hàng chính
+			  hãng. Chúng tôi sẽ bồi hoàn 200% giá trị sản phẩm nền khách hàng
+			  phát hiện sản phẩm nhận được là hàng giả , hàng nhái.</li>
+
+		  <li>Thời trang LUCKY MAN sẽ luôn nỗ lực phấn đấu và đổi mới về
+			  chất lượng – mẫu mã – cung cách phục vụ , để đem đến cho quý khách
+			  hàng những phút giây mua sắm thật thú vị !</li>
+		  <li>Thời trang LUCKY MAN xin gửi đến quý khách hàng lời tri ân
+			  sâu sắc , cảm ơn quý khách đã đồng hành và ủng hộ LUCKY trong thời gian
+			  qua . Kính chúc quý khách hàng luôn vui tươi , trẻ đẹp , và hãy ghé
+			  shop thường xuyên để chọn cho mình những bộ trang phục đẹp nhất nhé
+			  !
+		  <li>
+	  </div>
+	</div>
+  </div>
+
+
+<section class="app-container">
+	<p>Nhận bản tin Shop</p>
+	<input type="text" placeholder="Nhập email của bạn.....">
+</section>
+<div class="footer-top">
+	<li><a href=""><img src="/img/bct.png"></a></li>
+	<li><a href=""></a>Liên Hệ</li>
+	<li><a href=""></a>Tuyện dụng</li>
+	<li><a href=""></a>Giới thiệu</li>
+	<li>
+		<a href="" class="fab fa-facebook-f"></a>
+		<a href="" class="fab fa-twitter"></a>
+		<a href="" class="fab fa-youtube"></a>
+	</li>
+</div>
+<div class="footer-center">
+	<p>Công Ty cổ Phần Dự Kim với số đăng ký kinh doanh: 0105777650<br>
+	Địa chỉ đăng ký: Trần Nam Phú, P.Xuân Khánh, Q.Ninh Kiều, TP.Cần Thơ, Việt Nam - 0945518212<br>
+	Đặt hàng online: <b>0945 518 212</b>
+</p>
+</div>
+<div class="footer-bottom">
+	@Shop MFT All right reserved
+</div>
+</body>
+<script src="js/style.js"></script>
+<script src="js/slide.js"></script>
+</html>

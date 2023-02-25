@@ -1,0 +1,11 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Linden Hill
+font link: https://fonts.google.com/specimen/Linden+Hill
+font author: Barry Schwartz
+font author site: http://crudfactory.com/
+
+
+{"bg":"#F2F1F0","icon-gradient-0":"#575D60","icon-gradient-1":"#F6E1CD","font":"#34312E","slogan":"#484542"}
+      
